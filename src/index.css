@@ -1,0 +1,18 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+html,
+#root {
+  overflow: hidden;
+}
+body {
+  overflow: auto;
+}
+#root {
+  min-height: 600px;
+  min-width: 1200px;
+}
+
+@import url("./assets/styles/common.less");
